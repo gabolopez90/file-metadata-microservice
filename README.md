@@ -1,4 +1,4 @@
-![Mi Logo](https://github.com/gabolopez90/gabolopez90.github.io/blob/master/img/GL.ico)
+![Mi Logo](https://cdn.glitch.com/b65e865f-b5a6-41e9-a2b8-1c8b164aa9b6%2FGL.jpg?1520967020933)
 # File Metadata Microservice
 For the Free Code Camp Api Project File Metadata Microservice
 
