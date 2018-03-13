@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Metadata Microservice</title>
+        <link rel="shortcut icon" href="/img/GL.jpg" type="favicon/ico" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    </head>
+    <body>
+        
+        <div class="text-center titulo">
+            <img src="/img/GL.jpg" />
+            <h1>Free Code Camp API Challenge</h1>
+            <h2>File Metadata Microservice</h2>
+        </div>
+<!--
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-cloud-upload"></span>
+                            <h2>File Uploader</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" ></div>
+                            </div>
+                            <button class="btn btn-lg upload-btn" type="button">Upload File</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-default text-center">
+                        <form class="panel-body" action="/upload" method="POST" enctype="multipart/form-data">
+                            <span class="glyphicon glyphicon-cloud-upload"></span>
+                            <h2>File Uploader</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" ></div>
+                            </div>
+                            <label class="btn btn-lg upload-btn">Upload File</label><br />
+                            <input id="upload-input" type="file" name="file"></br>
+                            <button class="btn btn-lg">Send File</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <div class="text-center footer">
+            <p>By <a target="_blank" href="https://glopez.com.ve">Gabriel López</a>, 2018.</p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/js/script.js" type="text/javascript"></script>
+    </body>
+</html>
